@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIUH SHENG CO., LTD</title>
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <script src="./_js/bootstrap.bundle.js"></script>
+
+    <style>
+        body {
+            background-color: #4BC1DD;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .container_logo {
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 980px;
+            margin: 0 auto;
+            background: #FDF5E3;
+        }
+
+        nav {
+            max-width: 980px;
+            margin: 0 auto;
+            background-color: #96BA5A;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav div {
+            margin: 0 30px;
+        }
+
+        nav a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #4BC1DD;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;         
+        }
+        .dropdown-content {
+            display: none; /* 默认隐藏 */
+            position: absolute;
+            background-color: #96BA5A;
+            border: 1px solid #ccc;
+            min-width: 150px;
+            margin-top: 8px;
+            /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  */
+        }
+    
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+    
+        .dropdown-content a:hover {
+            background-color: #83AF39;
+            padding-top: 10px;
+            color: black;
+        }
+    
+        .dropdown:hover .dropdown-content {
+            display: block; /* 悬停时显示 */
+        }
+
+        .container_main {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 30px;
+            max-width: 980px;
+            margin: 0 auto;
+            background: #FDF5E3;
+        }
+
+        h3{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .item_container {
+            text-align: center;
+            padding-top: 8px;            
+            max-width: 180px;
+            width: 160px;
+            background-color: #FFFFFF;
+            border: 1px solid #D3D3D3;
+            border-radius: 5px;
+        }
+
+        .item_container:hover{
+            border: 1px solid mediumblue;
+        }
+
+        .item_container img {           
+            width: 140px;
+            height: 140px;
+            object-fit: contain;
+        }
+        .item_container p,a { 
+            text-align: center; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .item_container a:hover{
+            color: darkred;
+        }
+
+        footer.container {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width: 980px;
+            background-color: #96BA5A;
+        }
+
+        footer p {
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+        }
+
+        footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container_logo">
+            <div class="row">
+                <div class="col-md-12"><img src="./images/Logo.png"></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <div><a href="product.html">Home</a></div>
+                <div class="dropdown">
+                    <span><a href="">product</a></span>
+                    <div class="dropdown-content">
+                        <a href="kids.html">kids</a>
+                        <a href="bmx.html">BMX & skate</a>
+                        <a href="climbing.html">rock climbing</a>
+                        <a href="water.html">water</a>
+                        <a href="bike.html">bike</a>
+                    </div>
+                </div>
+                <div><a href="about_us.html">about us</a></div>
+                <div><a href="contact.html">contact us</a></div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container_main">
+        <div class="row">
+            <div class="col-3"><img src="./images/Company_information.png" class="rounded img-fluid"></div>
+            <div class="col-9">
+                <h3>Bike Helmet</h3><br>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-1050.html">
+                                <img src="./images/CS-1050/IMG_6477.PNG">
+                                <p>CS-1050</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-1500.html">
+                                <img src="./images/CS-1500/97B34EA8-13EE-4A51-ACE6-F94548CFEAFE.png">
+                                <p>CS-1500</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-1700.html">
+                                <img src="./images/CS-1700/A5B09F99-39BC-4069-9B53-D297DCBC8B67.png">
+                                <p>CS-1700</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-1800.html">
+                                <img src="./images/CS-1800/5F674790-066A-4536-9241-B2F189B2D9A5.png">
+                                <p>CS-1800</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-4400.html">
+                                <img src="./images/CS-4400/F064FF90-F04D-4509-ACA1-2F4E6E98E457.png">
+                                <p>CS-4400</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-5870.html">
+                                <img src="./images/CS-5870/1B6B27A6-080F-4B43-B55D-FB35AC2972AD.png">
+                                <p>CS-5870</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-6950.html">
+                                <img src="./images/CS-6950/IMG_6495.PNG">
+                                <p>CS-6950</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-6970.html">
+                                <img src="./images/CS-6970/DCAE2DDB-C50B-4970-A1C1-CDFE78015EE1.png">
+                                <p>CS-6970</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-7270.html">
+                                <img src="./images/CS-7270/718B1B9F-13DA-4831-B75C-CE122DE6A309.png">
+                                <p>CS-7270</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-7280.html">
+                                <img src="./images/CS-7280/matt green/B73746EF-CC18-4DD6-ADB8-A67EEC71AD15.png">
+                                <p>CS-7280</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-8600.html">
+                                <img src="./images/CS-8600/DEC54026-D0E7-4C54-9DB0-92FE1479443C.png">
+                                <p>CS-8600</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-8650.html">
+                                <img src="./images/CS-8650/B2E8AAE5-0CDD-4DD2-955E-83B341D05735.png">
+                                <p>CS-8650</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="item_container">
+                            <a href="./product information/CS-9100.html">
+                                <img src="./images/CS-9100/5BCDF687-CAF5-4A7F-9D27-FC8B861F13CD.png">
+                                <p>CS-9100</p>
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+    <footer class="container">
+        <div>
+            <p><a href="#">CHIUH SHENG CO., LTD</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

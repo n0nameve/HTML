@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIUH SHENG CO., LTD</title>
+    <link rel="stylesheet" href="../_css/bootstrap.css">
+    <script src="../_js/bootstrap.bundle.js"></script>
+
+    <style>
+        body {
+            background-color: #4BC1DD;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .container_logo {
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 980px;
+            margin: 0 auto;
+            background: #FDF5E3;
+        }
+
+        nav {
+            max-width: 980px;
+            margin: 0 auto;
+            background-color: #96BA5A;
+            padding: 10px 0;
+            overflow: visible;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav div {
+            margin: 0 30px;
+        }
+
+        nav a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #4BC1DD;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            /* 默认隐藏 */
+            position: absolute;
+            background-color: #96BA5A;
+            border: 1px solid #ccc;
+            min-width: 150px;
+            margin-top: 8px;
+            z-index: 1000;
+            /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  */
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #83AF39;
+            padding-top: 10px;
+            color: black;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            /* 悬停时显示 */
+        }
+
+        .container_main {
+            max-width: 980px;
+            height: 600px;
+            margin: 0 auto;
+            background: #FDF5E3;
+            overflow: hidden;
+            
+            /* border: 3px solid red; */
+            
+        }
+
+        .single_container{
+            width: 500px;
+            height: 300px;
+            margin-left: 240px;
+            margin-top: 50px;
+            display: flex;
+            /* border: 3px solid red; */
+        }
+
+        .text_container {
+            width: fit-content;  
+            margin: 30px auto 0 auto ;
+            font-weight: bold;
+            /* border: 1px solid red; */
+        }
+
+        .text_container>h3{
+            text-align: center;
+        }
+        
+        .img-fluid{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        
+
+        footer.container {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width: 980px;
+            background-color: #96BA5A;
+        }
+
+        footer p {
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+        }
+
+        footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: red;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container_logo">
+            <div class="row">
+                <div class="col-md-12"><img src="../images/Logo.png"></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <div><a href="../product.html">Home</a></div>
+                <div class="dropdown">
+                    <span><a href="">product</a></span>
+                    <div class="dropdown-content">
+                        <a href="../kids.html">kids</a>
+                        <a href="../bmx.html">BMX & skate</a>
+                        <a href="../climbing.html">rock climbing</a>
+                        <a href="../water.html">water</a>
+                        <a href="../bike.html">bike</a>
+                    </div>
+                </div>
+                <div><a href="../about_us.html">about us</a></div>
+                <div><a href="../contact.html">contact us</a></div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container_main">
+        
+            <div id="contorl" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#contorl" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                        <div class="single_container">
+                            <div class="carousel-item active">
+                                <img src="../images/CS-2500/CS-2500.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/511FA5E2-F976-4171-9094-399E59F805BB.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/CB8BDDB1-6FC5-4557-999F-33658B07D2F3.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/4B8D681C-DED4-4D95-9FAA-F10DE219A76E.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/FD252561-42F8-4629-A31D-081DA04C86EC.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/83F9F87D-85D7-4AD5-8D8F-340BC197E1E4.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/9D4EBFED-A95F-4EDC-A85A-FA0F5B1BEC9D.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/072EA405-3751-4A5F-BB6C-446C079A8010.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/982DDE94-4808-484F-AD5F-400B551DEDD2.png" class="img-fluid">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/CS-2500/C31D021E-79BE-4AE9-8BFF-FC32F33AF171.png" class="img-fluid">
+                            </div>
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#contorl" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#contorl" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="text_container">
+                <h3>CS-2500 HELMET</h3><p>
+                    <ul>
+                        <li>14 vents wind tunnel</li>
+                        <li>Adjustable size ring</li>
+                        <li>PVC in mold tech with high-impact EPS liner</li>
+                        <li>Weight：220g</li>
+                        <li>Size：XS:45~49cm S:49~53cm</li>
+                    </ul>
+            </div>
+        
+    </div>
+    <footer class="container">
+        <div>
+            <p><a href="#">CHIUH SHENG CO., LTD</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
